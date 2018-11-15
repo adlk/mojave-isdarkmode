@@ -1,9 +1,11 @@
 # macOS-isDarkMode
+
 Simple module to check if macOS Mojave dark mode is enabled
 
 This module is ready to be used in electron.
 
 ## How to use
+
 Install the module `npm install @adlk/mojave-isdarkmode`.
 
 ```js
