@@ -1,8 +1,8 @@
 {
   "name": "@adlk/mojave-isdarkmode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Checks if dark mode is enabled on macOS Mojave",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
     "prepack": "tsc"
