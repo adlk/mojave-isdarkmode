@@ -1,4 +1,4 @@
-# macos-isDarkMode
+# macOS-isDarkMode
 Simple module to check if macOS Mojave dark mode is enabled
 
 This module is ready to be used in electron.
