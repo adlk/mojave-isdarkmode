@@ -1,0 +1,33 @@
+{
+  "name": "@adlk/mojave-isdarkmode",
+  "version": "1.0.0",
+  "description": "Checks if dark mode is enabled on macOS Mojave",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "prepack": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adlk/mojave-isdarkmode.git"
+  },
+  "keywords": [
+    "macOS",
+    "Mojave",
+    "dark",
+    "mode"
+  ],
+  "author": "Stefan Malzner <stefan@adlk.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adlk/mojave-isdarkmode/issues"
+  },
+  "homepage": "https://github.com/adlk/mojave-isdarkmode#readme",
+  "devDependencies": {
+    "@types/debug": "0.0.31",
+    "@types/node": "^10.12.8"
+  },
+  "dependencies": {
+    "debug": "^4.1.0"
+  }
+}
