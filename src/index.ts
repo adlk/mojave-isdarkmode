@@ -5,7 +5,7 @@ import os from "os";
 
 const d = debug("mojave-isDarkMode");
 
-export default async function isDarkModeEnabled(): Promise<boolean | null> {
+export default async function isDarkModeEnabled(): Promise<boolean> {
     if (process.platform === "darwin" && parseInt(os.release().split(".")[0], 10) >= 18) {
       d("Checking if macOS mojave dark mode is enabled");
       try {
@@ -38,6 +38,7 @@ export default async function isDarkModeEnabled(): Promise<boolean | null> {
         }
       }
 
-      return null;
+      // Always return false on non-compatible OSes
+      return false;
     }
 }
