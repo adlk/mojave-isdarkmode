@@ -1,6 +1,6 @@
 {
   "name": "@adlk/mojave-isdarkmode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Checks if dark mode is enabled on macOS Mojave",
   "main": "dist/index.js",
   "scripts": {
